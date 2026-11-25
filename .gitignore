@@ -1,0 +1,10 @@
+# Keil build-output folders
+/Drone RC/MDK-ARM/Drone RC/
+/Drone/MDK-ARM/Drone/
+
+# Personal Keil workspace settings
+*.uvguix.*
+
+# Windows Explorer files
+Thumbs.db
+Desktop.ini
