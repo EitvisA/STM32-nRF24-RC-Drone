@@ -8,13 +8,13 @@ This project combines mechanical design, electronics assembly, embedded C progra
 
 ## Drone
 
-<img src="docs/images/Drone.jpg" alt="Custom-built drone" width="500">
+<img src="docs/images/Drone.jpg" alt="Custom-built drone" width="400">
 
 The drone uses a custom 3D-printed frame and an STM32 receiver connected to the SpeedyBee flight controller. The receiver processes incoming radio packets and forwards accepted control values through SBUS.
 
 ## RC Transmitter
 
-<img src="docs/images/Drone_RC.jpg" alt="Custom RC transmitter" width="500">
+<img src="docs/images/Drone_RC.jpg" alt="Custom RC transmitter" width="400">
 
 The handheld transmitter uses two gimbals for throttle, yaw, pitch and roll, plus an arm switch. An STM32 reads the controls, applies calibration and sends control packets through an nRF24L01 radio module.
 
