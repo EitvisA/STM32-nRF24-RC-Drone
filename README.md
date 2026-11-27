@@ -1,6 +1,3 @@
-# STM32-nRF24-RC-Drone
-DIY drone project with a custom handheld RC transmitter, wireless receiver and embedded control firmware
-
 # DIY Drone with Custom RC Transmitter
 
 A custom-built quadcopter with a 3D-printed frame, handheld RC transmitter and wireless receiver. STM32 microcontrollers handle the controls and radio communication, while a SpeedyBee F405 V4 flight controller running Betaflight handles flight stabilization and motor control.
