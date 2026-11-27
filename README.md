@@ -20,6 +20,29 @@ The handheld transmitter uses two gimbals for throttle, yaw, pitch and roll, plu
 
 The enclosure was designed in Fusion 360 and 3D printed.
 
+### Internal Assembly
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <b>Front panel</b><br>
+      Gimbals, switches and display wiring.
+    </td>
+    <td width="50%" align="center">
+      <b>Base enclosure</b><br>
+      STM32 controller, radio module and power electronics.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <img src="docs/images/RC_top_in.jpg" alt="RC transmitter front panel wiring" width="400">
+    </td>
+    <td valign="top">
+      <img src="docs/images/RC_bot_in.jpg" alt="RC transmitter base electronics" width="400">
+    </td>
+  </tr>
+</table>
+
 ## How It Works
 
 1. The transmitter reads the gimbals and arm switch.
@@ -43,6 +66,9 @@ The STM32 receiver provides the radio-to-SBUS interface; flight stabilization ru
 | Four brushless motors and 5-inch propellers | Propulsion |
 | 4S battery | Drone power |
 | Custom 3D-printed frame and RC enclosure | Mechanical structure |
+| 18650 Li-ion battery | RC transmitter power |
+| TP4056 charging module | RC battery charging |
+| DC–DC converter | Regulated 3.3 V supply for RC electronics |
 
 ## Firmware
 
