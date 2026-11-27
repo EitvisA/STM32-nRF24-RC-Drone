@@ -69,6 +69,7 @@ The STM32 receiver provides the radio-to-SBUS interface; flight stabilization ru
 | 18650 Li-ion battery | RC transmitter power |
 | TP4056 charging module | RC battery charging |
 | DC–DC converter | Regulated 3.3 V supply for RC electronics |
+| JST connectors and prototype board | Connections between RC components and mounting for the controller circuitry |
 
 ## Firmware
 
